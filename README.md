@@ -12,8 +12,7 @@ Quotes: The enrollment process includes the following steps:
 
 Quote: "_The DMClient that is configured via the enrollment process is granted access to enterprise related settings. During the enrollment process, the task scheduler is configured to invoke the DMClient to periodically poll the MDM server_."
 
-
-Other notes:
+Misc notes:
 * Protocol: Mobile Device Enrollment Protocol Version 2 (MS-MDE2)
 * `SSLCLIENTCERTSEARCHCRITERIA` defines how SW can afterwards discover the client certificate for authentication purposes. Example: `Subject=CN=Tester,O=Microsoft&Stores=My\User`
 * [ClientCertificateInstall CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/clientcertificateinstall-csp) (`SCEP`-based certificate enrollment)
@@ -34,15 +33,15 @@ Notes:
 * Suports MSIX app installation ffrom an arbitrary `PackageUri` with certificate-based authentication.
 * The associated [EnterpriseModernAppManagement CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/enterprisemodernappmanagement-csp) unfortunately seem to be limited to MSIX-packaged apps. I suspect this is the reason for InTune deploying a dedicated `Microsoft.Management.Services.IntuneWindowsAgent.exe` agent.
 
-### Device Update management
-From [Mobile device management (MDM) for device updates](https://learn.microsoft.com/en-us/windows/client-management/device-update-management):  
+### [Mobile device management (MDM) for device updates](https://learn.microsoft.com/en-us/windows/client-management/device-update-management)
+Notes:  
 * Quote_ "_keep devices up to date with the latest Microsoft updates_".
 * Quote: "Get device compliance information (the list of updates that are needed but not yet installed)."
 
 Notes:
 * [Policy CSP - Update](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update)
 
-### Log file harvesting
-From [Collect MDM logs](https://learn.microsoft.com/en-us/windows/client-management/mdm-collect-logs):  
+### [Collect MDM logs](https://learn.microsoft.com/en-us/windows/client-management/mdm-collect-logs)
+Notes:  
 * [DiagnosticLog CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/diagnosticlog-csp) (supports log file retrieval from arbitrary ETW channels)
 
