@@ -47,6 +47,8 @@ Notes:
 * Quote: "_MDM servers don't need to create or download a client to manage Windows_".
 * Protocol used: **Mobile Device Management Protocol** [MS-MDM]
 
+![image](https://github.com/user-attachments/assets/cebc617a-9d96-43b5-93dc-0e66631aebfa)  
+
 
 ### [Manage apps](https://learn.microsoft.com/en-us/windows/client-management/enterprise-app-management)
 Notes:
