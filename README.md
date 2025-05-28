@@ -39,7 +39,9 @@ Notes:
 * The associated [EnterpriseModernAppManagement CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/enterprisemodernappmanagement-csp) unfortunately seem to be limited to MSIX-packaged apps. I suspect this is the reason for InTune deploying a dedicated `Microsoft.Management.Services.IntuneWindowsAgent.exe` agent.
 
 ## Device Update management
-Quote from [Mobile device management (MDM) for device updates](https://learn.microsoft.com/en-us/windows/client-management/device-update-management): "_keep devices up to date with the latest Microsoft updates_".
+From [Mobile device management (MDM) for device updates](https://learn.microsoft.com/en-us/windows/client-management/device-update-management):  
+* Quote_ "_keep devices up to date with the latest Microsoft updates_".
+* Quote: "Get device compliance information (the list of updates that are needed but not yet installed)."
 
 Notes:
 * [Policy CSP - Update](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update)
