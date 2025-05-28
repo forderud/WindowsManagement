@@ -28,6 +28,7 @@ Parameters set during enrollment:
 ## [Mobile Device Management overview](https://learn.microsoft.com/en-us/windows/client-management/mdm-overview)
 Notes:  
 * Quote: "_MDM servers don't need to create or download a client to manage Windows_".
+* Protocol used: Mobile Device Management Protocol (MS-MDM)
 
 
 ### [Manage apps](https://learn.microsoft.com/en-us/windows/client-management/enterprise-app-management)
