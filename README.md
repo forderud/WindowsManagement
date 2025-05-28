@@ -1,3 +1,5 @@
+**DISCLAIMER**: This document is a work-in-progress collection of quotes, links and notes related to management of Windows computers. Please contact the author if something is incorrect or missing, and the document will be updated.
+
 ## Windows [Client management](https://learn.microsoft.com/en-us/windows/client-management/) notes
 
 The Windows MDM APIs form the **foundation for how MDM tools interact with the underlying operating system**. MDM tools like InTune, ManageEngine, Ivanti, 
