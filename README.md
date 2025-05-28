@@ -1,13 +1,11 @@
-## Windows [Client management](https://learn.microsoft.com/en-us/windows/client-management/)
+## Windows [Client management](https://learn.microsoft.com/en-us/windows/client-management/) notes
 
 Overview of communication between Windows configuration service providers (CSPs) and MDM servers:  
 ![image](https://github.com/user-attachments/assets/58fe9dfc-ddc6-448b-9b8b-6a6c5a1731f1)
 
 
-## Device Enrollment
-Quotes from [Mobile device enrollment](https://learn.microsoft.com/en-us/windows/client-management/mobile-device-enrollment):
-
-The enrollment process includes the following steps:
+## [Mobile device enrollment](https://learn.microsoft.com/en-us/windows/client-management/mobile-device-enrollment)
+Quotes: The enrollment process includes the following steps:
 1. **Discovery of the enrollment endpoint**: This step provides the enrollment endpoint configuration settings.
 2. **Certificate installation**: This step handles user authentication, certificate generation, and certificate installation. The installed certificates will be used in the future to manage client/server (TLS/SSL) mutual authentication.
 3. **DM Client provisioning**: This step configures the Device Management (DM) client to connect to a Mobile Device Management (MDM) server after enrollment via DM SyncML over HTTPS (also known as Open Mobile Alliance Device Management (OMA DM) XML).
@@ -25,14 +23,12 @@ Parameters set during enrollment:
 ![image](https://github.com/user-attachments/assets/9287a593-686f-4531-931a-7b2267808f78)
 
 
-## Device Management
-Notes from [Mobile Device Management overview](https://learn.microsoft.com/en-us/windows/client-management/mdm-overview):  
+## [Mobile Device Management overview](https://learn.microsoft.com/en-us/windows/client-management/mdm-overview)
+Notes:  
 * Quote: "_MDM servers don't need to create or download a client to manage Windows_".
 
 
-### SW installation management
-[Manage apps](https://learn.microsoft.com/en-us/windows/client-management/enterprise-app-management)
-
+### [Manage apps](https://learn.microsoft.com/en-us/windows/client-management/enterprise-app-management)
 Notes:
 * Inventory all MSIX apps for all users of a Windows device.
 * Suports MSIX app installation ffrom an arbitrary `PackageUri` with certificate-based authentication.
