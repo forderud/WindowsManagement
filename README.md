@@ -8,3 +8,9 @@ Notes from [Mobile device enrollment](https://learn.microsoft.com/en-us/windows/
 # Device Management
 Notes from [Mobile Device Management overview](https://learn.microsoft.com/en-us/windows/client-management/mdm-overview):  
 * ..
+
+## SW installation management
+[Manage apps](https://learn.microsoft.com/en-us/windows/client-management/enterprise-app-management)
+
+## Device Update management
+[Mobile device management (MDM) for device updates](https://learn.microsoft.com/en-us/windows/client-management/device-update-management)
