@@ -20,7 +20,7 @@ Quotes: The enrollment process includes the following steps:
 Quote: "_The DMClient that is configured via the enrollment process is granted access to enterprise related settings. During the enrollment process, the task scheduler is configured to invoke the DMClient to periodically poll the MDM server_."
 
 Misc notes:
-* Protocol used: Mobile Device Enrollment Protocol Version 2 (MS-MDE2)
+* Protocol used: **Mobile Device Enrollment Protocol Version 2** [MS-MDE2]
 * [ClientCertificateInstall CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/clientcertificateinstall-csp) (`SCEP`-based certificate enrollment)
 * [2.2.9.3 DMClient Configuration Service Provider](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-mde2/f7553554-b6e1-4a0d-abd6-6a2534503af7)
 
@@ -37,7 +37,7 @@ Client certificate in registry (don't know if these paths are implementation det
 ## [Mobile Device Management overview](https://learn.microsoft.com/en-us/windows/client-management/mdm-overview)
 Notes:  
 * Quote: "_MDM servers don't need to create or download a client to manage Windows_".
-* Protocol used: Mobile Device Management Protocol (MS-MDM)
+* Protocol used: **Mobile Device Management Protocol** [MS-MDM]
 
 
 ### [Manage apps](https://learn.microsoft.com/en-us/windows/client-management/enterprise-app-management)
