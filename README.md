@@ -6,6 +6,9 @@ Notes from [Mobile device enrollment](https://learn.microsoft.com/en-us/windows/
 * `SSLCLIENTCERTSEARCHCRITERIA` defines how SW can afterwards discover the client certificate for authentication purposes. Example: `Subject=CN=Tester,O=Microsoft&Stores=My\User`
 * [ClientCertificateInstall CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/clientcertificateinstall-csp) (`SCEP`-based certificate enrollment)
 
+Enrollment parameters configured:  
+![image](https://github.com/user-attachments/assets/9287a593-686f-4531-931a-7b2267808f78)
+
 
 # Device Management
 Notes from [Mobile Device Management overview](https://learn.microsoft.com/en-us/windows/client-management/mdm-overview):  
