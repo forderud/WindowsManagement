@@ -59,3 +59,6 @@ Notes:
 Notes:  
 * [DiagnosticLog CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/diagnosticlog-csp) (supports log file retrieval from arbitrary ETW channels)
 
+
+## Configuration Service Providers (CSPs)
+The [MDM Bridge WMI Provider](https://learn.microsoft.com/en-us/windows/win32/dmwmibridgeprov/mdm-bridge-wmi-provider-portal) appear to expose CSPs over WMI, so that they can also be accessed locally on the device. TODO: Test this out.
