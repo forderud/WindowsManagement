@@ -35,10 +35,12 @@ Notes:
 Notes:
 * Inventory all MSIX apps for all users of a Windows device.
 * Suports MSIX app installation ffrom an arbitrary `PackageUri` with certificate-based authentication.
-* The associated [EnterpriseModernAppManagement CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/enterprisemodernappmanagement-csp) unfortunately seem to be limited to MSIX-packaged apps. I suspect this is the reason for InTune deploying a dedicated `Microsoft.Management.Services.IntuneWindowsAgent.exe` agent.
-* [EnterpriseDesktopAppManagement CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/enterprisedesktopappmanagement-csp): Exposes a `Device/MSI/{ProductID}/DownloadInstall` node for MSI app installation from a HTTPS URL
+* The associated [EnterpriseModernAppManagement CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/enterprisemodernappmanagement-csp) unfortunately seem to be limited to MSIX-packaged apps.
+* [EnterpriseDesktopAppManagement CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/enterprisedesktopappmanagement-csp): Exposes a `Device/MSI/{ProductID}/DownloadInstall` node for MSI app installation from `ContentURL` 
 * [Win32AppInventory CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/win32appinventory-csp): provide an inventory of installed applications on a device
 
+Comment:
+* InTune is deploying an extra `Microsoft.Management.Services.IntuneWindowsAgent.exe` agent. Should figure out if that's really needed.
 
 ### [Mobile device management (MDM) for device updates](https://learn.microsoft.com/en-us/windows/client-management/device-update-management)
 Notes:  
