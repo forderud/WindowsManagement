@@ -30,7 +30,7 @@ Client certificate lookup:
 
 InTune notes (don't know if they're generic):  
 * The client certificate store & thumbprint appear to be stored in `HKLM\SOFTWARE\Microsoft\Provisioning\OMADM\Accounts\{GUID}\SslClientCertReference` in the Windows registry.
-* The client certificate is also exposed in `HKLM\SOFTWARE\Microsoft\Enrollments\{GUID}\DMPCertThumbPrint`.
+* The client certificate is also exposed in `HKLM\SOFTWARE\Microsoft\Enrollments\{GUID}\DMPCertThumbPrint` and in `HKLM\SOFTWARE\Microsoft\Enrollments\{GUID}\DMClient\MS DM Server\EntDMID`.
 
 ## [Mobile Device Management overview](https://learn.microsoft.com/en-us/windows/client-management/mdm-overview)
 Notes:  
