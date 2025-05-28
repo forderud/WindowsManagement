@@ -1,5 +1,9 @@
 Windows [Client management](https://learn.microsoft.com/en-us/windows/client-management/).
 
+Overview of communication between Windows configuration service providers and MDM servers:  
+![image](https://github.com/user-attachments/assets/58fe9dfc-ddc6-448b-9b8b-6a6c5a1731f1)
+
+
 # Device Enrollment
 Notes from [Mobile device enrollment](https://learn.microsoft.com/en-us/windows/client-management/mobile-device-enrollment):  
 * Protocol: Mobile Device Enrollment Protocol Version 2 (MS-MDE2)
