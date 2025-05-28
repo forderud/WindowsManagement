@@ -29,12 +29,15 @@ Misc notes:
 Enrollment parameters:  
 ![image](https://github.com/user-attachments/assets/9287a593-686f-4531-931a-7b2267808f78)
 
-Client certificate lookup:  
-* MS-MDE2 `SSLCLIENTCERTSEARCHCRITERIA` defines how SW can discover the MDM client certificate required for network authentication. This certificate is used for communication with the MDM server, to download SW packages and more. Example: `Subject=CN=Tester,O=Microsoft&Stores=My\User`. The certificate query seem to be stored in `HKLM\SOFTWARE\Microsoft\Provisioning\OMADM\Accounts\{GUID}\Protected\SslClientCertSearchCriteria` in the Windows registry.
+Client certificate query string:  
+* MS-MDE2 `SSLCLIENTCERTSEARCHCRITERIA` defines how SW can discover the MDM client certificate required for network authentication. This certificate is used for communication with the MDM server, to download SW packages and more. Example: `Subject=CN=Tester,O=Microsoft&Stores=My\User`.
+* The certificate query seem to be stored in `HKLM\SOFTWARE\Microsoft\Provisioning\OMADM\Accounts\{GUID}\Protected\SslClientCertSearchCriteria` in the Windows registry.
 
-Client certificate in registry (don't know if these paths are implementation details or can be relied on):  
+Client certificate lookup:  
 * The client certificate store & thumbprint appear to be stored in `HKLM\SOFTWARE\Microsoft\Provisioning\OMADM\Accounts\{GUID}\SslClientCertReference` in the Windows registry.
 * The client certificate thumbprint is also exposed in `HKLM\SOFTWARE\Microsoft\Enrollments\{GUID}\DMPCertThumbPrint` and `HKLM\SOFTWARE\Microsoft\Enrollments\{GUID}\DMClient\MS DM Server\EntDMID`.
+
+TODO: Ask Microsoft on the reocmmended way for discovering the correct client certificate.
 
 ## [Mobile Device Management overview](https://learn.microsoft.com/en-us/windows/client-management/mdm-overview)
 Notes:  
