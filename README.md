@@ -34,6 +34,7 @@ Notes from [Mobile Device Management overview](https://learn.microsoft.com/en-us
 [Manage apps](https://learn.microsoft.com/en-us/windows/client-management/enterprise-app-management)
 
 Notes:
+* Suports MSIX app installation ffrom an arbitrary `PackageUri` with certificate-based authentication.
 * [EnterpriseModernAppManagement CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/enterprisemodernappmanagement-csp) (unfortunately seem limited to MSIX-packaged apps)
 
 ## Device Update management
