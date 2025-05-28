@@ -5,7 +5,15 @@ Overview of communication between Windows configuration service providers (CSPs)
 
 
 # Device Enrollment
-Notes from [Mobile device enrollment](https://learn.microsoft.com/en-us/windows/client-management/mobile-device-enrollment):  
+Quote from [Mobile device enrollment](https://learn.microsoft.com/en-us/windows/client-management/mobile-device-enrollment):
+
+
+The enrollment process includes the following steps:
+1. Discovery of the enrollment endpoint: This step provides the enrollment endpoint configuration settings.
+2. Certificate installation: This step handles user authentication, certificate generation, and certificate installation. The installed certificates will be used in the future to manage client/server (TLS/SSL) mutual authentication.
+3. DM Client provisioning: This step configures the Device Management (DM) client to connect to a Mobile Device Management (MDM) server after enrollment via DM SyncML over HTTPS (also known as Open Mobile Alliance Device Management (OMA DM) XML).
+
+Other notes:
 * Protocol: Mobile Device Enrollment Protocol Version 2 (MS-MDE2)
 * `SSLCLIENTCERTSEARCHCRITERIA` defines how SW can afterwards discover the client certificate for authentication purposes. Example: `Subject=CN=Tester,O=Microsoft&Stores=My\User`
 * [ClientCertificateInstall CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/clientcertificateinstall-csp) (`SCEP`-based certificate enrollment)
