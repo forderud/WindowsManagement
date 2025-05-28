@@ -26,6 +26,9 @@ Misc notes:
 * [ClientCertificateInstall CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/clientcertificateinstall-csp) (`SCEP`-based certificate enrollment)
 * [2.2.9.3 DMClient Configuration Service Provider](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-mde2/f7553554-b6e1-4a0d-abd6-6a2534503af7)
 
+![image](https://github.com/user-attachments/assets/609f1006-8c0e-4cfb-af62-afc7c92a8086)  
+
+
 Enrollment parameters:  
 ![image](https://github.com/user-attachments/assets/9287a593-686f-4531-931a-7b2267808f78)
 
