@@ -25,9 +25,12 @@ Misc notes:
 Enrollment parameters:  
 ![image](https://github.com/user-attachments/assets/9287a593-686f-4531-931a-7b2267808f78)
 
-Client certificate lookup parameters:
+Client certificate lookup:  
 * MS-MDE2 `SSLCLIENTCERTSEARCHCRITERIA` defines how SW can discover the client certificate for authentication purposes. Example: `Subject=CN=Tester,O=Microsoft&Stores=My\User`
-* The client certificate store & thumbprint appear to be stored in `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Provisioning\OMADM\Accounts\{GUID}\SslClientCertReference` in the Windows registry.
+
+InTune notes (don't know if they're generic):  
+* The client certificate store & thumbprint appear to be stored in `HKLM\SOFTWARE\Microsoft\Provisioning\OMADM\Accounts\{GUID}\SslClientCertReference` in the Windows registry.
+* The client certificate is also exposed in `HKLM\SOFTWARE\Microsoft\Enrollments\{GUID}\DMPCertThumbPrint`.
 
 ## [Mobile Device Management overview](https://learn.microsoft.com/en-us/windows/client-management/mdm-overview)
 Notes:  
