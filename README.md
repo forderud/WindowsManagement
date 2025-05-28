@@ -88,6 +88,6 @@ Notes:
 
 
 ## [Configuration Service Providers (CSPs)](https://learn.microsoft.com/en-us/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers)
-The [MDM Bridge WMI Provider](https://learn.microsoft.com/en-us/windows/win32/dmwmibridgeprov/mdm-bridge-wmi-provider-portal) appear to expose CSPs over WMI, so that they can also be accessed locally on the device.
+The [MDM Bridge WMI Provider](https://learn.microsoft.com/en-us/windows/win32/dmwmibridgeprov/mdm-bridge-wmi-provider-portal) appear to expose CSPs over WMI, so that they can also be accessed locally on the device. Also, see [WMI providers supported in Windows](https://learn.microsoft.com/en-us/windows/client-management/wmi-providers-supported-in-windows) for additional WMI MDM providers.
 
 TODO: Test this out [Using PowerShell scripting with the WMI Bridge Provider](https://learn.microsoft.com/en-us/windows/client-management/using-powershell-scripting-with-the-wmi-bridge-provider).
