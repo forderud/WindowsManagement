@@ -58,6 +58,23 @@ Notes:
 * [EnterpriseDesktopAppManagement CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/enterprisedesktopappmanagement-csp): Exposes a `Device/MSI/{ProductID}/DownloadInstall` node for MSI app installation from `ContentURL` . Also see `MsiInstallJob` in same document.
 * [Win32AppInventory CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/win32appinventory-csp): provide an inventory of installed applications on a device
 
+#### `EnterpriseDesktopAppManagement` CSP SW installation example:
+```
+<MsiInstallJob id="{f5645004-3214-46ea-92c2-48835689da06}">
+  <Download>
+    <ContentURL>https://myorg.com/app-installers/myapp.msi</ContentURL>
+  </Download>
+  <Validation>
+    <FileHash>7D127BA8F8CC5937DB3052E2632D672120217D910E271A58565BBA780ED8F05C</FileHash>
+  </Validation>
+  <Enforcement>
+    <CommandLine>/quiet</CommandLine>
+    <TimeOut>10</TimeOut>
+    <RetryCount>1</RetryCount>
+  </Enforcement>
+</MsiInstallJob>
+```
+Taken from [Abusing_the_MDM_Client_Stack_Typhooncon_2024-2.pdf](https://typhooncon.com/wp-content/uploads/2024/08/Abusing_the_MDM_Client_Stack_Typhooncon_2024-2.pdf).
 
 ### [Mobile device management (MDM) for device updates](https://learn.microsoft.com/en-us/windows/client-management/device-update-management)
 Notes:  
