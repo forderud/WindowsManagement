@@ -45,3 +45,5 @@ From [Mobile device management (MDM) for device updates](https://learn.microsoft
 
 Notes:
 * [Policy CSP - Update](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update)
+* [Collect MDM logs](https://learn.microsoft.com/en-us/windows/client-management/mdm-collect-logs)
+
