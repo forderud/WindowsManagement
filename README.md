@@ -33,6 +33,8 @@ Notes from [Mobile Device Management overview](https://learn.microsoft.com/en-us
 ## SW installation management
 [Manage apps](https://learn.microsoft.com/en-us/windows/client-management/enterprise-app-management)
 
+Notes:
+* [EnterpriseModernAppManagement CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/enterprisemodernappmanagement-csp) (unfortunately seem limited to MSIX-packaged apps)
 
 ## Device Update management
 [Mobile device management (MDM) for device updates](https://learn.microsoft.com/en-us/windows/client-management/device-update-management)
