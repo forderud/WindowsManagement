@@ -55,7 +55,7 @@ Notes:
 * Inventory all apps for all users of a Windows device.
 * Suports app installation ffrom an arbitrary `PackageUri` with certificate-based authentication.
 * [EnterpriseModernAppManagement CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/enterprisemodernappmanagement-csp) (limited to MSIX-packaged apps)
-* [EnterpriseDesktopAppManagement CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/enterprisedesktopappmanagement-csp): Exposes a `Device/MSI/{ProductID}/DownloadInstall` node for MSI app installation from `ContentURL` 
+* [EnterpriseDesktopAppManagement CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/enterprisedesktopappmanagement-csp): Exposes a `Device/MSI/{ProductID}/DownloadInstall` node for MSI app installation from `ContentURL` . Also see `MsiInstallJob` in same document.
 * [Win32AppInventory CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/win32appinventory-csp): provide an inventory of installed applications on a device
 
 
