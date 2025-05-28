@@ -57,7 +57,7 @@ Notes:
 
 ### [Collect MDM logs](https://learn.microsoft.com/en-us/windows/client-management/mdm-collect-logs)
 Notes:  
-* [DiagnosticLog CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/diagnosticlog-csp) (supports log file retrieval from arbitrary ETW channels)
+* [DiagnosticLog CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/diagnosticlog-csp) supports log file retrieval from arbitrary ETW channels
 
 
 ## [Configuration Service Providers (CSPs)](https://learn.microsoft.com/en-us/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers)
