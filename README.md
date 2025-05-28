@@ -1,10 +1,10 @@
-Windows [Client management](https://learn.microsoft.com/en-us/windows/client-management/).
+## Windows [Client management](https://learn.microsoft.com/en-us/windows/client-management/)
 
 Overview of communication between Windows configuration service providers (CSPs) and MDM servers:  
 ![image](https://github.com/user-attachments/assets/58fe9dfc-ddc6-448b-9b8b-6a6c5a1731f1)
 
 
-# Device Enrollment
+## Device Enrollment
 Quotes from [Mobile device enrollment](https://learn.microsoft.com/en-us/windows/client-management/mobile-device-enrollment):
 
 The enrollment process includes the following steps:
@@ -25,12 +25,12 @@ Parameters set during enrollment:
 ![image](https://github.com/user-attachments/assets/9287a593-686f-4531-931a-7b2267808f78)
 
 
-# Device Management
+## Device Management
 Notes from [Mobile Device Management overview](https://learn.microsoft.com/en-us/windows/client-management/mdm-overview):  
 * Quote: "_MDM servers don't need to create or download a client to manage Windows_".
 
 
-## SW installation management
+### SW installation management
 [Manage apps](https://learn.microsoft.com/en-us/windows/client-management/enterprise-app-management)
 
 Notes:
@@ -38,7 +38,7 @@ Notes:
 * Suports MSIX app installation ffrom an arbitrary `PackageUri` with certificate-based authentication.
 * The associated [EnterpriseModernAppManagement CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/enterprisemodernappmanagement-csp) unfortunately seem to be limited to MSIX-packaged apps. I suspect this is the reason for InTune deploying a dedicated `Microsoft.Management.Services.IntuneWindowsAgent.exe` agent.
 
-## Device Update management
+### Device Update management
 From [Mobile device management (MDM) for device updates](https://learn.microsoft.com/en-us/windows/client-management/device-update-management):  
 * Quote_ "_keep devices up to date with the latest Microsoft updates_".
 * Quote: "Get device compliance information (the list of updates that are needed but not yet installed)."
