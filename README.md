@@ -44,8 +44,6 @@ Notes:
 Notes:  
 * Quote_ "_keep devices up to date with the latest Microsoft updates_".
 * Quote: "Get device compliance information (the list of updates that are needed but not yet installed)."
-
-Notes:
 * [Policy CSP - Update](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update)
 
 ### [Collect MDM logs](https://learn.microsoft.com/en-us/windows/client-management/mdm-collect-logs)
