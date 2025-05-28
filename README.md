@@ -40,3 +40,6 @@ Notes:
 
 ## Device Update management
 [Mobile device management (MDM) for device updates](https://learn.microsoft.com/en-us/windows/client-management/device-update-management)
+
+Notes:
+* [Policy CSP - Update](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update)
