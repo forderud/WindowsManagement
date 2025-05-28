@@ -6,6 +6,9 @@ Workspace ONE, Jamf, Hexnode and similar are built on top of.these APIs. See [En
 Overview of communication between Windows configuration service providers (CSPs), inbuilt MDM clients and MDM servers:  
 ![image](https://github.com/user-attachments/assets/58fe9dfc-ddc6-448b-9b8b-6a6c5a1731f1)
 
+Comment:
+* InTune is deploying an additional `Microsoft.Management.Services.IntuneWindowsAgent.exe` agent. Should figure out why that's needed.
+
 
 ## [Mobile device enrollment](https://learn.microsoft.com/en-us/windows/client-management/mobile-device-enrollment)
 Quotes: The enrollment process includes the following steps:
@@ -39,8 +42,6 @@ Notes:
 * [EnterpriseDesktopAppManagement CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/enterprisedesktopappmanagement-csp): Exposes a `Device/MSI/{ProductID}/DownloadInstall` node for MSI app installation from `ContentURL` 
 * [Win32AppInventory CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/win32appinventory-csp): provide an inventory of installed applications on a device
 
-Comment:
-* InTune is deploying an extra `Microsoft.Management.Services.IntuneWindowsAgent.exe` agent. Should figure out if that's really needed.
 
 ### [Mobile device management (MDM) for device updates](https://learn.microsoft.com/en-us/windows/client-management/device-update-management)
 Notes:  
