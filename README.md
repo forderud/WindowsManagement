@@ -1,4 +1,4 @@
-**DISCLAIMER**: This document is a work-in-progress collection of quotes, links and notes related to management of Windows computers. Please contact the author if something is incorrect or missing, and the document will be updated.
+**DISCLAIMER**: This document is a work-in-progress collection of quotes, links and notes related to management of Windows computers. Please contact the author if something is incorrect or missing, and the document will be updated accordingly.
 
 ## Windows [Client management](https://learn.microsoft.com/en-us/windows/client-management/) notes
 
