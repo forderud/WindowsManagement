@@ -12,7 +12,7 @@ Enrollment parameters configured:
 
 # Device Management
 Notes from [Mobile Device Management overview](https://learn.microsoft.com/en-us/windows/client-management/mdm-overview):  
-* ..
+* Quote: "_MDM servers don't need to create or download a client to manage Windows_".
 
 
 ## SW installation management
