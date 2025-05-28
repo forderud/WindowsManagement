@@ -10,7 +10,7 @@ Workspace ONE, Jamf, Hexnode and similar are built on top of.these APIs. See [En
 Figure from [Enterprise settings and policy management](https://learn.microsoft.com/en-us/windows/client-management/windows-mdm-enterprise-settings).
 
 
-Comment: InTune is also deploying an additional [Management Extension (IME)](https://learn.microsoft.com/en-us/intune/intune-service/apps/intune-management-extension) (Microsoft.Management.Services.IntuneWindowsAgent.exe) agent that supplements the inbuilt Windows MDM APIs.
+Note: InTune is also deploying an additional [Management Extension (IME)](https://learn.microsoft.com/en-us/intune/intune-service/apps/intune-management-extension) (Microsoft.Management.Services.IntuneWindowsAgent.exe) agent that supplements the inbuilt Windows MDM APIs.
 
 
 ## [Mobile device enrollment](https://learn.microsoft.com/en-us/windows/client-management/mobile-device-enrollment)
