@@ -5,9 +5,8 @@
 The Windows MDM APIs form the **foundation for how MDM tools interact with the underlying operating system**. MDM tools like InTune, ManageEngine, Ivanti, 
 Workspace ONE, Jamf, Hexnode and similar are built on top of.these APIs. See [Endpoint Management Tools Reviews and Ratings](https://www.gartner.com/reviews/market/endpoint-management-tools) for a listing of different MDM solutions.
 
-#### Overview of communication between Windows configuration service providers (CSPs), inbuilt MDM clients and MDM servers
+#### Overview of communication between Windows configuration service providers (CSPs), inbuilt MDM clients and MDM servers (figure from [Enterprise settings and policy management](https://learn.microsoft.com/en-us/windows/client-management/windows-mdm-enterprise-settings)):
 ![image](https://github.com/user-attachments/assets/58fe9dfc-ddc6-448b-9b8b-6a6c5a1731f1)  
-Figure from [Enterprise settings and policy management](https://learn.microsoft.com/en-us/windows/client-management/windows-mdm-enterprise-settings).
 
 
 Note: InTune is also deploying an additional [Management Extension (IME)](https://learn.microsoft.com/en-us/intune/intune-service/apps/intune-management-extension) (Microsoft.Management.Services.IntuneWindowsAgent.exe) agent that supplements the inbuilt Windows MDM APIs.
