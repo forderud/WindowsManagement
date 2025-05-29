@@ -73,7 +73,7 @@ Notes:
   </Enforcement>
 </MsiInstallJob>
 ```
-Taken from [Abusing_the_MDM_Client_Stack_Typhooncon_2024-2.pdf](https://typhooncon.com/wp-content/uploads/2024/08/Abusing_the_MDM_Client_Stack_Typhooncon_2024-2.pdf).
+... from [Abusing_the_MDM_Client_Stack_Typhooncon_2024-2.pdf](https://typhooncon.com/wp-content/uploads/2024/08/Abusing_the_MDM_Client_Stack_Typhooncon_2024-2.pdf).
 
 ### [Mobile device management (MDM) for device updates](https://learn.microsoft.com/en-us/windows/client-management/device-update-management)
 Notes:  
