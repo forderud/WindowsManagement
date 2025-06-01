@@ -26,7 +26,7 @@ Misc notes:
 * [2.2.9.3 DMClient Configuration Service Provider](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-mde2/f7553554-b6e1-4a0d-abd6-6a2534503af7)
 * [Certificate Renewal](https://learn.microsoft.com/en-us/windows/client-management/certificate-renewal-windows-mdm)
 
-![image](https://github.com/user-attachments/assets/609f1006-8c0e-4cfb-af62-afc7c92a8086)  
+![image](https://github.com/user-attachments/assets/5147a0a5-6aa6-4b68-b0cf-781bc767e09e)  
 
 
 Enrollment parameters:  
@@ -47,7 +47,7 @@ Notes:
 * Quote: "_MDM servers don't need to create or download a client to manage Windows_".
 * Protocol used: **Mobile Device Management Protocol** [MS-MDM]
 
-![image](https://github.com/user-attachments/assets/cebc617a-9d96-43b5-93dc-0e66631aebfa)  
+![image](https://github.com/user-attachments/assets/4065756f-30a1-494b-ae44-f3985f0bc6d4)  
 
 
 ### [Manage apps](https://learn.microsoft.com/en-us/windows/client-management/enterprise-app-management)
