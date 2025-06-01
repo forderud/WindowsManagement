@@ -91,3 +91,7 @@ Notes:
 The [MDM Bridge WMI Provider](https://learn.microsoft.com/en-us/windows/win32/dmwmibridgeprov/mdm-bridge-wmi-provider-portal) appear to expose CSPs over WMI, so that they can also be accessed locally on the device. Also, see [WMI providers supported in Windows](https://learn.microsoft.com/en-us/windows/client-management/wmi-providers-supported-in-windows) for additional WMI MDM providers.
 
 TODO: Test this out [Using PowerShell scripting with the WMI Bridge Provider](https://learn.microsoft.com/en-us/windows/client-management/using-powershell-scripting-with-the-wmi-bridge-provider).
+
+## External resources
+* [Windows MDM Overview](https://youtu.be/AT2Y8APvQVw?si=kcyn-IhanQ95QDC_&t=534), from Windows Agentless C2: (Ab)using the MDM Client Stack, Black Hat 2023.
+
