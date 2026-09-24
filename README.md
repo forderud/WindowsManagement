@@ -13,6 +13,8 @@ Note: InTune is also deploying an additional [Management Extension (IME)](https:
 
 
 ## [Mobile device enrollment](https://learn.microsoft.com/en-us/windows/client-management/mobile-device-enrollment)
+Inbuilt MDM enrollment client: `dmclient.exe`.
+
 Quotes: The enrollment process includes the following steps:
 1. **Discovery of the enrollment endpoint**: This step provides the enrollment endpoint configuration settings.
 2. **Certificate installation**: This step handles user authentication, certificate generation, and certificate installation. The installed certificates will be used in the future to manage client/server (TLS/SSL) mutual authentication.
